@@ -20,7 +20,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption1 () {
 		BinaryTree tree = App.buildBinaryTree(1);
-		Assertions.assertEquals(15, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(15, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -34,7 +34,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption2 () {
 		BinaryTree tree = App.buildBinaryTree(2);
-		Assertions.assertEquals(-1, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(-1, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -48,7 +48,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption3 () {
 		BinaryTree tree = App.buildBinaryTree(3);
-		Assertions.assertEquals(-1, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(-1, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -62,7 +62,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption4 () {
 		BinaryTree tree = App.buildBinaryTree(4);
-		Assertions.assertEquals(9, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(9, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -76,7 +76,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption5 () {
 		BinaryTree tree = App.buildBinaryTree(5);
-		Assertions.assertEquals(30, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(30, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -90,7 +90,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption6 () {
 		BinaryTree tree = App.buildBinaryTree(6);
-		Assertions.assertEquals(6, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(6, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -104,7 +104,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption7 () {
 		BinaryTree tree = App.buildBinaryTree(7);
-		Assertions.assertEquals(20, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(20, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -118,7 +118,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption8 () {
 		BinaryTree tree = App.buildBinaryTree(8);
-		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -132,7 +132,7 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption9 () {
 		BinaryTree tree = App.buildBinaryTree(9);
-		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference());
     }
     
     @Tag("DEV")
@@ -146,6 +146,6 @@ public class AppTest
     @Test
     public void testMaxDifferenceOption10 () {
 		BinaryTree tree = App.buildBinaryTree(10);
-		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference(tree.getRoot()));
+		Assertions.assertEquals(Integer.MIN_VALUE, tree.getMaxDifference());
     }
 }

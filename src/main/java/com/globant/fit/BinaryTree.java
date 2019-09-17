@@ -44,12 +44,11 @@ public class BinaryTree {
 	
 	/**
 	 * Return the maximum difference between any ancestor node in the tree and any of that ancestor's descendant nodes.
-	 * @param node a binary tree node
 	 * @return the maximum difference between any ancestor node in the tree and any of that ancestor's descendant nodes.
 	 */
-	public int getMaxDifference (Node node) {
+	public int getMaxDifference () {
 		
-		getMinValueAndProcessMaxDifference(node);
+		getMinValueAndProcessMaxDifference(this.root);
 		return maxDifference;
 	}
 	

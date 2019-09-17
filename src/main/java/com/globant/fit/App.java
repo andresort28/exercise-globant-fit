@@ -22,7 +22,7 @@ public class App {
 		BinaryTree tree = buildBinaryTree(option);
 		System.out.println("Option: " + option);
 		System.out.println("Inorder: " + printInorder(tree.getRoot()));
-		System.out.println("Maximum Difference: " + tree.getMaxDifference(tree.getRoot()));
+		System.out.println("Maximum Difference: " + tree.getMaxDifference());
 	}
 
 	/**
